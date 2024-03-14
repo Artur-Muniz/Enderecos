@@ -1,0 +1,128 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+nav{
+  width: 100%;
+  height: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+#cepBotao, #ruaBotao{
+  width: 100px;
+  height: 80%;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffa90a;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+#conteudo{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#conteudo input{
+  font-family: inherit;
+  font-size: 1.3rem;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  padding: 7px 0;
+}
+
+#botoes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px;
+}
+
+#botoes button{
+  border-radius: 10px;
+  height: 30px;
+}
+
+#resposta {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 700px; 
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: row;
+}
+
+.card img {
+  width: 50%;
+  height: 100%;
+}
+
+.card .info{
+  width: 50%;
+  height: 100%;
+}
+
+.card p{
+  font-family: inherit;
+  font-size: 1.3rem;
+  margin: 20px;
+}
+
+.card #btnMaps{
+  width: 100%;
+  height: 30px;
+}
+
+#btnMaps button{
+  border-style: none;
+  background-color: #94fd77;
+  width: 100%;
+  height: 100%;
+  border-bottom-right-radius: 10px;
+  font-size: 1.3rem;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+#btnMaps a{
+  text-decoration: none;
+  color: black;
+}
+
+#resposta ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#resposta li{
+  margin: 50px;
+}
